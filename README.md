@@ -1,4 +1,4 @@
-# crispy-system
+# Prompt Training with the Cripsy System
 
 ![UNAPOLOGETICLY SENSUAL GUIDE](meta/media/crispy_system_1.webp)
 
