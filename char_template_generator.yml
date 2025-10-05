@@ -1,0 +1,90 @@
+# character.yaml
+id: "{{slugified_name}}"
+name: "{{Character Name}}"
+level: {{Level}}
+system: "{{pathfinder2e | starfinder2e | velvetchains}}"
+class: "{{Class}}"
+ancestry: "{{Ancestry}}"
+background: "{{Background}}"
+alignment: "{{Alignment}}"
+deity: "{{Deity | null}}"
+
+traits:
+  - "{{Trait 1}}"
+  - "{{Trait 2}}"
+
+tags:
+  - "{{Tag 1}}"
+  - "{{Tag 2}}"
+
+abilities:
+  str: {{STR}}
+  dex: {{DEX}}
+  con: {{CON}}
+  int: {{INT}}
+  wis: {{WIS}}
+  cha: {{CHA}}
+
+hp:
+  max: {{Max HP}}
+  current: {{Current HP}}
+  temp: {{Temp HP}}
+
+ac: {{AC}}
+initiative: {{Initiative Bonus}}
+speed: "{{Speed}}"
+
+saves:
+  fortitude: {{Fortitude Bonus}}
+  reflex: {{Reflex Bonus}}
+  will: {{Will Bonus}}
+
+skills:
+  arcana: {{Arcana Bonus}}
+  society: {{Society Bonus}}
+  occultism: {{Occultism Bonus}}
+  perception: {{Perception Bonus}}
+  stealth: {{Stealth Bonus}}
+
+attacks:
+  - id: "{{weapon_id}}"
+    name: "{{Weapon Name}}"
+    type: "{{melee | ranged}}"
+    bonus: {{Attack Bonus}}
+    damage: "{{Damage Formula}}"
+
+spellcasting:
+  tradition: "{{arcane | divine | occult | primal}}"
+  type: "{{prepared | spontaneous}}"
+  cantrips:
+    - "{{Cantrip 1}}"
+    - "{{Cantrip 2}}"
+  level_1:
+    slots: {{Slots}}
+    prepared:
+      - "{{Spell 1}}"
+      - "{{Spell 2}}"
+
+inventory:
+  - "{{Item 1}}"
+  - "{{Item 2}}"
+
+features:
+  class:
+    - "{{Class Feature 1}}"
+  ancestry:
+    - "{{Ancestry Feature 1}}"
+  background:
+    - "{{Background Feature 1}}"
+
+velvetchains:
+  corruption_level: {{0-10}}
+  soul_marks: []
+  custom_feats: []
+  narrative_tags:
+    - "{{Narrative Tag 1}}"
+
+created: "{{YYYY-MM-DD}}"
+last_updated: "{{YYYY-MM-DD}}"
+notes: >
+  {{Freeform character notes or backstory}}

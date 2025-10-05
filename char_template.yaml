@@ -1,0 +1,101 @@
+# Velvet Chains Character Template
+name: "Ezren"
+level: 1
+system: "Pathfinder 2E"  # Options: Pathfinder 2E, Starfinder 2E, Velvet Chains
+class: "Wizard"
+ancestry: "Human"
+background: "Scholar"
+alignment: "Neutral Good"
+
+traits:
+  - Arcane
+  - Humanoid
+  - Magical
+
+deity: null  # Optional for divine classes
+languages:
+  - Common
+  - Draconic
+  - Elven
+
+abilities:
+  strength: 10
+  dexterity: 12
+  constitution: 12
+  intelligence: 18
+  wisdom: 14
+  charisma: 10
+
+hp:
+  max: 16
+  current: 16
+  temp: 0
+
+ac: 15
+initiative: "+2"
+speed: "25 ft"
+
+saving_throws:
+  fortitude: "+4"
+  reflex: "+3"
+  will: "+6"
+
+skills:
+  arcana: "+7"
+  society: "+5"
+  occultism: "+6"
+  perception: "+4"
+  stealth: "+2"
+
+attacks:
+  - name: "Staff"
+    type: "Melee"
+    bonus: "+2"
+    damage: "1d6 bludgeoning"
+
+spells:
+  tradition: "Arcane"
+  spellcasting_type: "Prepared"
+  spell_slots:
+    cantrips:
+      - "Detect Magic"
+      - "Prestidigitation"
+      - "Shield"
+    level_1:
+      slots: 2
+      prepared:
+        - "Magic Missile"
+        - "Mage Armor"
+
+equipment:
+  - "Spellbook"
+  - "Staff"
+  - "Adventurer's Pack"
+  - "Scroll of Identify"
+
+features:
+  class_features:
+    - "Arcane Spellcasting"
+    - "School Specialization: Universalist"
+  ancestry_features:
+    - "Versatile Heritage"
+  background_features:
+    - "Scholar Lore"
+
+velvet_chains:
+  corruption_level: 0
+  soul_marks: []
+  custom_feats: []
+  narrative_tags:
+    - "Haunted by visions"
+    - "Seeks forbidden knowledge"
+
+notes: |
+  Ezren is a seasoned scholar who has studied ancient magical texts across Golarion and the Pact Worlds. He is cautious, methodical, and deeply curious about the glowing roots beneath Raven’s Hollow.
+
+---
+
+# To use:
+# - Duplicate this template per character
+# - Adjust fields based on system rules
+# - Add Velvet Chains homebrew tags as needed

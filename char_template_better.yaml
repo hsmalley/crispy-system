@@ -1,0 +1,106 @@
+# Character Profile
+id: ezren-001
+name: Ezren
+level: 1
+system: pathfinder2e  # Options: pathfinder2e, starfinder2e, velvetchains
+class: wizard
+ancestry: human
+background: scholar
+alignment: neutral_good
+deity: null
+
+# Traits & Tags
+traits:
+  - arcane
+  - humanoid
+  - magical
+tags:
+  - iconic
+  - velvetchains-compatible
+
+# Stats
+abilities:
+  str: 10
+  dex: 12
+  con: 12
+  int: 18
+  wis: 14
+  cha: 10
+
+hp:
+  max: 16
+  current: 16
+  temp: 0
+
+ac: 15
+initiative: 2
+speed: "25 ft"
+
+# Saves
+saves:
+  fortitude: 4
+  reflex: 3
+  will: 6
+
+# Skills
+skills:
+  arcana: 7
+  society: 5
+  occultism: 6
+  perception: 4
+  stealth: 2
+
+# Attacks
+attacks:
+  - id: staff-001
+    name: Staff
+    type: melee
+    bonus: 2
+    damage: "1d6 bludgeoning"
+
+# Spellcasting
+spellcasting:
+  tradition: arcane
+  type: prepared
+  cantrips:
+    - detect_magic
+    - prestidigitation
+    - shield
+  level_1:
+    slots: 2
+    prepared:
+      - magic_missile
+      - mage_armor
+
+# Equipment
+inventory:
+  - spellbook
+  - staff
+  - adventurers_pack
+  - scroll_of_identify
+
+# Features
+features:
+  class:
+    - arcane_spellcasting
+    - universalist_specialization
+  ancestry:
+    - versatile_heritage
+  background:
+    - scholar_lore
+
+# Velvet Chains Extension
+velvetchains:
+  corruption_level: 0
+  soul_marks: []
+  custom_feats: []
+  narrative_tags:
+    - haunted_by_visions
+    - seeks_forbidden_knowledge
+
+# Metadata
+created: 2025-10-05
+last_updated: 2025-10-05
+notes: >
+  Ezren is a seasoned scholar who has studied ancient magical texts across Golarion and the Pact Worlds.
+  He is cautious, methodical, and deeply curious about the glowing roots beneath Raven’s Hollow.
